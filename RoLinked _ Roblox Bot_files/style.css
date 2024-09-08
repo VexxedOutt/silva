@@ -1568,7 +1568,7 @@ box-shadow: 10px 10px 34px -11px rgba(0,0,0,0.75);
 .static-banner{
     margin:0;
     padding:0;
-    background: #2980b9 url('/img/animat-bg.png') repeat 0 0;
+    background: #2980b9 url('img/animat-bg.png') repeat 0 0;
     -webkit-animation: 10s linear 0s normal none infinite animate;
     -moz-animation: 10s linear 0s normal none infinite animate;
     -ms-animation: 10s linear 0s normal none infinite animate;
