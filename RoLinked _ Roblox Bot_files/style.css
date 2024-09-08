@@ -1553,27 +1553,37 @@ box-shadow: 10px 10px 34px -11px rgba(0,0,0,0.75);
 }
 
 .static-banner-image {
-	background:url(/img/header-slide-1.png) no-repeat right top;
-	width:900px;
-	height:225px;
-	text-align:right;
-	position:relative;
-	right:0;
-	left:0px;
-	top:0;
+    background: url('/img/header-slide-1.png') no-repeat right top;
+    width: 900px;
+    height: 225px;
+    text-align: right;
+    position: relative;
+    right: 0;
+    left: 0;
+    top: 0;
 }
 
-/* Background image animation START  */
+/* Background image animation START  /
 
-.static-banner{
-	margin:0;
-	padding:0;
+.static-banner {
+    margin: 0;
+    padding: 0;
     background: #2980b9 url('/img/animat-bg.png') repeat 0 0;
-	-webkit-animation: 10s linear 0s normal none infinite animate;
-	-moz-animation: 10s linear 0s normal none infinite animate;
-	-ms-animation: 10s linear 0s normal none infinite animate;
-	-o-animation: 10s linear 0s normal none infinite animate;
-	animation: 10s linear 0s normal none infinite animate;
+    -webkit-animation: 10s linear 0s normal none infinite animate;
+    -moz-animation: 10s linear 0s normal none infinite animate;
+    -ms-animation: 10s linear 0s normal none infinite animate;
+    -o-animation: 10s linear 0s normal none infinite animate;
+    animation: 10s linear 0s normal none infinite animate;
+}
+
+/ Add definition for the animation /
+@keyframes animate {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -100% -100%; / Adjust based on your needs */
+    }#
  
 }
  
